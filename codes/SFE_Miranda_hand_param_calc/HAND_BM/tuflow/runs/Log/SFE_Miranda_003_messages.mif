@@ -1,0 +1,9 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+
+Columns 2
+  Message Char(200)
+  Wiki_Link Char(64)
+Data
+

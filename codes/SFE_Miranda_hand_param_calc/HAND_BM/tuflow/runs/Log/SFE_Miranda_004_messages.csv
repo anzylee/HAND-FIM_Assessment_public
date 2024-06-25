@@ -1,0 +1,2 @@
+ 0307, 2,      -99999.000,      -99999.000,"WARNING 0307 - No MI Projection specified. Non-Earth Coordinates will be used.","","","","https://wiki.tuflow.com/TUFLOW_Message_0307"
+ 2550, 2,      434369.500,     4448964.500,"WARNING 2550 - 1 instability timestep corrections recorded at cell [0254;0757].","","","","https://wiki.tuflow.com/TUFLOW_Message_2550"

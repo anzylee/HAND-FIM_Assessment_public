@@ -1,0 +1,14 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+
+Columns 2
+  Message Char(200)
+  Wiki_Link Char(64)
+Data
+
+Text
+"WARNING 2550 - 1 instability timestep corrections recorded at cell [0240;1008]."
+          438708.000     4410824.250      438758.000     4410824.750
+    Font ("Arial",257,0,16776960,0)
+    Label Line Arrow       438707.500     4410824.500

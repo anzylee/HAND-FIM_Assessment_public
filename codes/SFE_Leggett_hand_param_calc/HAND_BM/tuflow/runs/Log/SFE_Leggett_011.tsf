@@ -1,0 +1,55 @@
+TUFLOW Control File == "D:\tuflow-SFE-mainstem\SFE_Leggett\runs\SFE_Leggett_011.tcf"
+TUFLOW Log File == "D:\tuflow-SFE-mainstem\SFE_Leggett\runs\Log\SFE_Leggett_011.tlf"
+TUFLOW Build == Build: 2023-03-AC-iSP-w64
+Solution Scheme == HPC
+Hardware == GPU
+GPU Device IDs == 0 
+Computer Name == WETLAB
+
+Simulation Status == FINISHED
+Simulation Time (h) == 10.
+Simulation Start Time (h) == 0.
+Simulation End Time (h) == 10.
+
+Percentage Complete (%) == 100
+Completed Computational Steps == 308036
+
+CPU Time (h) == 0.7355
+Clock Time (h) == 0.7622
+Approximate Clock Time Remaining (h) == 0.
+
+HPC HCN Repeated Timesteps == 3  ! HCN is High Control Numbers, eg. Courant Number exceedance
+HPC NaN Repeated Timesteps == 0  ! NaN - Not a Number means an instability occurred
+HPC NaN WARNING 2550 == 6
+WARNINGs Prior to Simulation == 1
+WARNINGs During Simulation == 6
+CHECKs Prior to Simulation == 0
+CHECKs During Simulation == 0
+
+Volume at Start (m3) == 60839
+Volume at End (m3) == 174548
+Total Volume In (m3) == 12580652
+Total Volume Out (m3) == 12466943
+Volume Error (m3) == 0
+Volume Error (%) == -0.00  ! % of Volume In + Out
+Cumulative Mass Error [ME] (%) == -0.00
+
+Summary Output Interval (s) == 3600.
+Number Summary Values == 11
+Volume In Values [Qi]  == 0.0, 2515219.4, 1258168.2, 1258170.5, 1258176.7, 1258182.3, 1258176.9, 1258168.0, 1258170.1, 1258176.5, 43.3
+Volume Out Values [Qo] == 0.0, 2400984.6, 1258243.1, 1258508.3, 1258288.9, 1257944.0, 1257892.6, 1258234.9, 1258506.8, 1258297.9, 41.8
+Change in Volume Values [dV] == 0.0, 114234.8, -74.9, -337.8, -112.2, 238.3, 284.3, -66.9, -336.7, -121.5, 1.6
+Mass Error Values [ME] (%) == 0.0, 0.0, 0.0, -0.0, 0.0, 0.0, -0.0, -0.0, -0.0, -0.0, -0.0
+
+Number TUFLOW 1D Nodes == 0
+Number TUFLOW 1D Channels == 0
+
+Active 2D Cells == 582844
+Total 2D Cells == 2084732
+Inactive 2D Cells == 1501888
+Number 2D Domains == 1
+2D Domain Cell Sizes == 1.
+2D Domain Timestep == 0.124 ! Variable
+
+First Start Map Output (h) == 2.
+Shortest Map Output Interval (s) == 3600.

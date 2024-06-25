@@ -1,0 +1,13 @@
+Origin == 437700,4410585 
+Orientation == 437700,4412301
+Cell Size == 1  ! cell size in the units as specified in the .tcf file
+Grid Size (X,Y) == 1222,1706 ! grid dimensions in the units as specified in the .tcf file
+
+Set Zpts == 1050 ! Any elevation notbaly higher than your project max Z
+Read GRID Zpts ==..\model\grid\SFE_Leggett.asc
+
+Set Code == 0
+Read GIS Code == ..\model\gis\2d_code_SFE_Leggett_R.shp
+
+Set Mat == 1  ! Set every cell to a material ID of 1
+! Read GIS Mat == ..\model\gis\2d_mat_SFE_Leggett_R.shp  		!Set materials using polygon 

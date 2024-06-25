@@ -1,0 +1,55 @@
+TUFLOW Control File == "D:\tuflow-SFE-Miranda\SFE_Miranda\runs\SFE_Miranda_007.tcf"
+TUFLOW Log File == "D:\tuflow-SFE-Miranda\SFE_Miranda\runs\Log\SFE_Miranda_007.tlf"
+TUFLOW Build == Build: 2023-03-AC-iSP-w64
+Solution Scheme == HPC
+Hardware == GPU
+GPU Device IDs == 0 
+Computer Name == WETLAB
+
+Simulation Status == FINISHED
+Simulation Time (h) == 10.
+Simulation Start Time (h) == 0.
+Simulation End Time (h) == 10.
+
+Percentage Complete (%) == 100
+Completed Computational Steps == 290115
+
+CPU Time (h) == 1.148
+Clock Time (h) == 1.239
+Approximate Clock Time Remaining (h) == 0.
+
+HPC HCN Repeated Timesteps == 6  ! HCN is High Control Numbers, eg. Courant Number exceedance
+HPC NaN Repeated Timesteps == 0  ! NaN - Not a Number means an instability occurred
+HPC NaN WARNING 2550 == 12
+WARNINGs Prior to Simulation == 1
+WARNINGs During Simulation == 11
+CHECKs Prior to Simulation == 0
+CHECKs During Simulation == 0
+
+Volume at Start (m3) == 91254
+Volume at End (m3) == 223249
+Total Volume In (m3) == 13631550
+Total Volume Out (m3) == 13499554
+Volume Error (m3) == 0
+Volume Error (%) == 0.00  ! % of Volume In + Out
+Cumulative Mass Error [ME] (%) == 0.00
+
+Summary Output Interval (s) == 3600.
+Number Summary Values == 11
+Volume In Values [Qi]  == 0.0, 2726309.8, 1363149.2, 1363149.1, 1363149.1, 1363149.1, 1363149.1, 1363149.1, 1363149.1, 1363149.2, 46.8
+Volume Out Values [Qo] == 0.0, 2594339.9, 1363032.2, 1362983.2, 1362928.0, 1362995.0, 1363341.9, 1363484.9, 1363320.5, 1363083.4, 45.1
+Change in Volume Values [dV] == 0.0, 131970.1, 116.9, 166.0, 221.1, 154.1, -192.8, -335.8, -171.4, 65.7, 1.7
+Mass Error Values [ME] (%) == 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+Number TUFLOW 1D Nodes == 0
+Number TUFLOW 1D Channels == 0
+
+Active 2D Cells == 1280399
+Total 2D Cells == 2624629
+Inactive 2D Cells == 1344230
+Number 2D Domains == 1
+2D Domain Cell Sizes == 1.
+2D Domain Timestep == 0.124 ! Variable
+
+First Start Map Output (h) == 2.
+Shortest Map Output Interval (s) == 3600.

@@ -1,0 +1,48 @@
+Stage                                             ,Total (s)   ,Elapsed (s) 
+Initilisation (file opened)                       ,      0.00,      0.00
+Searching Wibu Licence                            ,      0.01,      0.01
+Found 2D domains                                  ,      0.31,      0.31
+Start 2D BC Array Sizes Domain_001                ,      0.50,      0.19
+End 2D BC Array Sizes Domain_001                  ,      0.51,      0.01
+Start Estry Setup s0                              ,      0.51,      0.00
+End Estry Setup s0                                ,      0.51,      0.00
+Start TUFLOW Setup s2                             ,      0.51,      0.00
+End TUFLOW Setup s2                               ,      0.75,      0.23
+Reading Geometry File Domain_001                  ,      1.05,      0.30
+Start Read GRID Zpts                              ,      1.07,      0.02
+End Read GRID Zpts                                ,      1.11,      0.04
+Start Read Read GIS Code                          ,      1.11,      0.00
+End Read Read GIS Code                            ,      1.14,      0.02
+Finished Reading Geometry File Domain_001         ,      1.15,      0.02
+Start Read input file (stage 2) Domain_001        ,      1.16,      0.00
+End Read input file (stage 2) Domain_001          ,      1.24,      0.08
+Identifying cells within user defined output zones,      1.24,      0.00
+Finished Identifying cells within user defined out,      1.24,      0.00
+Setting instability water levels Domain_001       ,      1.24,      0.00
+Finished Setting instability water levels Domain_0,      1.24,      0.00
+Assigning any Variable Z Shape 1D Trigger Nodes   ,      1.25,      0.00
+Finished Assigning any Variable Z Shape 1D Trigger,      1.25,      0.00
+Start Reading Input File (Stage 3)                ,      1.25,      0.00
+End Reading Input File (Stage 3)                  ,      1.26,      0.01
+Reading Boundary File Domain_001                  ,      1.26,      0.00
+Finished Reading Boundary File Domain_001         ,      1.37,      0.11
+Initialising 2D Data (Stage 1) Domain_001         ,      1.38,      0.01
+Finished Initialising 2D Data (Stage 1) Domain_001,      1.57,      0.19
+Initialising 2D Data (Stage 2) Domain_001         ,      1.57,      0.00
+Finished Initialising 2D Data (Stage 2) Domain_001,      1.75,      0.18
+Start Writing _grd_check                          ,      1.77,      0.02
+End Writing _grd_check                            ,     10.29,      8.53
+Start Writing _zpt_check                          ,     10.29,      0.00
+End Writing _zpt_check                            ,     16.77,      6.47
+Start Writing _uvpt_check                         ,     16.77,      0.00
+End Writing _uvpt_check                           ,     21.51,      4.74
+Start Writing .2dm                                ,     21.58,      0.07
+End Writing .2dm                                  ,     25.38,      3.80
+Start Writing check DEMs                          ,     25.38,      0.00
+Start Calculating grid interpolation factors      ,     25.38,      0.00
+End Calculating grid interpolation factors        ,     25.75,      0.37
+End Writing check DEMs                            ,     26.77,      1.03
+Start Calculating grid interpolation factors      ,     26.77,      0.00
+End Calculating grid interpolation factors        ,     27.14,      0.36
+Starting Simulation                               ,     27.14,      0.01
+Summary File Close                                ,     27.14,      0.00

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20240509</CreaDate><CreaTime>16374200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\ExtractMultiValuesToPoints" Date="20240509" Time="163742">ExtractMultiValuesToPoints Thalweg_10m_points_adjusted "dem.tif dem_10" NONE</Process></lineage></DataProperties></Esri></metadata>

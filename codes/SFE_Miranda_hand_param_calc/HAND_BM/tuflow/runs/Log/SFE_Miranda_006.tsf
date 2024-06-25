@@ -1,0 +1,55 @@
+TUFLOW Control File == "D:\tuflow-SFE-Miranda\SFE_Miranda\runs\SFE_Miranda_006.tcf"
+TUFLOW Log File == "D:\tuflow-SFE-Miranda\SFE_Miranda\runs\Log\SFE_Miranda_006.tlf"
+TUFLOW Build == Build: 2023-03-AC-iSP-w64
+Solution Scheme == HPC
+Hardware == GPU
+GPU Device IDs == 0 
+Computer Name == WETLAB
+
+Simulation Status == FINISHED
+Simulation Time (h) == 10.
+Simulation Start Time (h) == 0.
+Simulation End Time (h) == 10.
+
+Percentage Complete (%) == 100
+Completed Computational Steps == 272914
+
+CPU Time (h) == 1.055
+Clock Time (h) == 1.129
+Approximate Clock Time Remaining (h) == 0.
+
+HPC HCN Repeated Timesteps == 3  ! HCN is High Control Numbers, eg. Courant Number exceedance
+HPC NaN Repeated Timesteps == 0  ! NaN - Not a Number means an instability occurred
+HPC NaN WARNING 2550 == 3
+WARNINGs Prior to Simulation == 1
+WARNINGs During Simulation == 3
+CHECKs Prior to Simulation == 0
+CHECKs During Simulation == 0
+
+Volume at Start (m3) == 61393
+Volume at End (m3) == 170526
+Total Volume In (m3) == 8839115
+Total Volume Out (m3) == 8729982
+Volume Error (m3) == 0
+Volume Error (%) == -0.00  ! % of Volume In + Out
+Cumulative Mass Error [ME] (%) == -0.00
+
+Summary Output Interval (s) == 3600.
+Number Summary Values == 11
+Volume In Values [Qi]  == 0.0, 1767788.2, 883890.1, 883890.2, 883890.4, 883890.8, 883891.1, 883897.0, 883976.0, 883971.0, 30.3
+Volume Out Values [Qo] == 0.0, 1658626.1, 883961.4, 883847.0, 883933.8, 883873.9, 883805.8, 884159.4, 883878.2, 883867.9, 28.6
+Change in Volume Values [dV] == 0.0, 109162.2, -71.3, 43.2, -43.5, 16.9, 85.2, -262.5, 97.8, 103.0, 1.8
+Mass Error Values [ME] (%) == 0.0, 0.0, 0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0
+
+Number TUFLOW 1D Nodes == 0
+Number TUFLOW 1D Channels == 0
+
+Active 2D Cells == 1280399
+Total 2D Cells == 2624629
+Inactive 2D Cells == 1344230
+Number 2D Domains == 1
+2D Domain Cell Sizes == 1.
+2D Domain Timestep == 0.124 ! Variable
+
+First Start Map Output (h) == 2.
+Shortest Map Output Interval (s) == 3600.

@@ -1,0 +1,55 @@
+TUFLOW Control File == "D:\tuflow-SFE-Miranda\SFE_Miranda\runs\SFE_Miranda_011.tcf"
+TUFLOW Log File == "D:\tuflow-SFE-Miranda\SFE_Miranda\runs\Log\SFE_Miranda_011.tlf"
+TUFLOW Build == Build: 2023-03-AC-iSP-w64
+Solution Scheme == HPC
+Hardware == GPU
+GPU Device IDs == 0 
+Computer Name == WETLAB
+
+Simulation Status == FINISHED
+Simulation Time (h) == 10.
+Simulation Start Time (h) == 0.
+Simulation End Time (h) == 10.
+
+Percentage Complete (%) == 100
+Completed Computational Steps == 424170
+
+CPU Time (h) == 1.773
+Clock Time (h) == 1.8
+Approximate Clock Time Remaining (h) == 0.
+
+HPC HCN Repeated Timesteps == 42  ! HCN is High Control Numbers, eg. Courant Number exceedance
+HPC NaN Repeated Timesteps == 0  ! NaN - Not a Number means an instability occurred
+HPC NaN WARNING 2550 == 151
+WARNINGs Prior to Simulation == 1
+WARNINGs During Simulation == 57
+CHECKs Prior to Simulation == 0
+CHECKs During Simulation == 0
+
+Volume at Start (m3) == 252178
+Volume at End (m3) == 478193
+Total Volume In (m3) == 43161368
+Total Volume Out (m3) == 42935353
+Volume Error (m3) == 0
+Volume Error (%) == -0.00  ! % of Volume In + Out
+Cumulative Mass Error [ME] (%) == -0.00
+
+Summary Output Interval (s) == 3600.
+Number Summary Values == 11
+Volume In Values [Qi]  == 0.0, 8632366.3, 4316106.1, 4316106.0, 4316106.0, 4316106.0, 4316106.8, 4316106.0, 4316106.1, 4316110.6, 148.2
+Volume Out Values [Qo] == 0.0, 8407074.4, 4315672.7, 4316366.8, 4315934.8, 4316397.8, 4316238.0, 4315180.6, 4316163.3, 4316168.8, 156.3
+Change in Volume Values [dV] == 0.0, 225291.9, 433.1, -260.6, 171.3, -292.2, -131.1, 925.4, -57.4, -57.8, -8.3
+Mass Error Values [ME] (%) == 0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0
+
+Number TUFLOW 1D Nodes == 0
+Number TUFLOW 1D Channels == 0
+
+Active 2D Cells == 1280399
+Total 2D Cells == 2624629
+Inactive 2D Cells == 1344230
+Number 2D Domains == 1
+2D Domain Cell Sizes == 1.
+2D Domain Timestep == 0.124 ! Variable
+
+First Start Map Output (h) == 2.
+Shortest Map Output Interval (s) == 3600.

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20231205</CreaDate><CreaTime>16362500</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractByMask" Date="20231205" Time="163625">ExtractByMask C:\Users\Jose\Desktop\SFE_Leggett\SFE1_HUC8\HUC6_180101_dem.tif Mask_extend C:\Users\Jose\Desktop\SFE_Miranda\HAND_Prep\HAND_10m\dem.tif</Process></lineage></DataProperties></Esri></metadata>

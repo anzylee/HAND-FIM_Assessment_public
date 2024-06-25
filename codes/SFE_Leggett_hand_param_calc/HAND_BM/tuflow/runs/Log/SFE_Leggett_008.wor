@@ -1,0 +1,11 @@
+!Workspace
+!Version 600
+!Charset WindowsLatin1
+!Contains GIS input layers from TUFLOW simulation SFE_Leggett_008
+! Non-MapInfo .tab Layer "..\..\model\gis\2d_bc_SFE_Leggett_HT_L.shp"
+! Non-MapInfo .tab Layer "..\..\model\gis\2d_po_SFE_Leggett_P.shp"
+! Non-MapInfo .tab Layer "..\..\model\gis\2d_po_SFE_Leggett_L.shp"
+! Non-MapInfo .tab Layer "..\..\model\gis\2d_sa_SFE_Leggett_QT_R.shp"
+! Non-MapInfo .tab Layer "..\..\model\grid\SFE_Leggett.asc"
+! XF File with associated GIS Layer "..\..\model\grid\xf\SFE_Leggett.asc.d1.1m.xf4"
+! Non-MapInfo .tab Layer "..\..\model\gis\2d_code_SFE_Leggett_R.shp"

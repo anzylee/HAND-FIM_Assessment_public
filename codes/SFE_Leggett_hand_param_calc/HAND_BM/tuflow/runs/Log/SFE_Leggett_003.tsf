@@ -1,0 +1,55 @@
+TUFLOW Control File == "D:\tuflow-SFE-mainstem\SFE_Leggett\runs\SFE_Leggett_003.tcf"
+TUFLOW Log File == "D:\tuflow-SFE-mainstem\SFE_Leggett\runs\Log\SFE_Leggett_003.tlf"
+TUFLOW Build == Build: 2023-03-AC-iSP-w64
+Solution Scheme == HPC
+Hardware == GPU
+GPU Device IDs == 0 
+Computer Name == WETLAB
+
+Simulation Status == FINISHED
+Simulation Time (h) == 10.
+Simulation Start Time (h) == 0.
+Simulation End Time (h) == 10.
+
+Percentage Complete (%) == 100
+Completed Computational Steps == 236151
+
+CPU Time (h) == 0.4952
+Clock Time (h) == 0.5122
+Approximate Clock Time Remaining (h) == 0.
+
+HPC HCN Repeated Timesteps == 0  ! HCN is High Control Numbers, eg. Courant Number exceedance
+HPC NaN Repeated Timesteps == 0  ! NaN - Not a Number means an instability occurred
+HPC NaN WARNING 2550 == 0
+WARNINGs Prior to Simulation == 1
+WARNINGs During Simulation == 0
+CHECKs Prior to Simulation == 0
+CHECKs During Simulation == 0
+
+Volume at Start (m3) == 11587
+Volume at End (m3) == 36824
+Total Volume In (m3) == 356335
+Total Volume Out (m3) == 331099
+Volume Error (m3) == 0
+Volume Error (%) == -0.00  ! % of Volume In + Out
+Cumulative Mass Error [ME] (%) == -0.00
+
+Summary Output Interval (s) == 3600.
+Number Summary Values == 11
+Volume In Values [Qi]  == 0.0, 71275.4, 35632.3, 35632.3, 35632.3, 35632.3, 35632.3, 35632.3, 35632.3, 35632.3, 1.2
+Volume Out Values [Qo] == 0.0, 46042.5, 35628.8, 35632.3, 35632.3, 35632.3, 35632.3, 35632.3, 35632.3, 35632.3, 1.2
+Change in Volume Values [dV] == 0.0, 25232.9, 3.5, 0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0
+Mass Error Values [ME] (%) == 0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0
+
+Number TUFLOW 1D Nodes == 0
+Number TUFLOW 1D Channels == 0
+
+Active 2D Cells == 582844
+Total 2D Cells == 2084732
+Inactive 2D Cells == 1501888
+Number 2D Domains == 1
+2D Domain Cell Sizes == 1.
+2D Domain Timestep == 0.124 ! Variable
+
+First Start Map Output (h) == 2.
+Shortest Map Output Interval (s) == 3600.

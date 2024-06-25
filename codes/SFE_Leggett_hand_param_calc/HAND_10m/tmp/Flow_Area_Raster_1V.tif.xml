@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20240625</CreaDate><CreaTime>14331300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\SetNull" Date="20240625" Time="143313">SetNull ./tmp/Flow_Area_Raster_019.tif ./tmp/Flow_Area_Raster_019.tif .\tmp\SetNull_Flow_Ar1.tif "VALUE &lt; 1"</Process></lineage></DataProperties></Esri></metadata>

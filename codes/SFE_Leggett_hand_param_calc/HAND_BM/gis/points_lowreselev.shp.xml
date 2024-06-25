@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20231129</CreaDate><CreaTime>14103400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\ExtractValuesToPoints" Date="20231129" Time="141034">ExtractValuesToPoints Thalweg_lowres_10m dem.tif D:\CIROH\SFE_Leggett_hand_param_calc\HAND_BM\gis\points_lowreselev.shp INTERPOLATE VALUE_ONLY</Process></lineage></DataProperties></Esri></metadata>

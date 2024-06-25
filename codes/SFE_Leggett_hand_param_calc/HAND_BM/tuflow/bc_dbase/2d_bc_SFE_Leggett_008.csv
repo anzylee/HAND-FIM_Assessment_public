@@ -1,0 +1,3 @@
+Name,Source,Column 1,Column 2
+RPin,SFE_Leggett_bc_data_008.csv,Time,RPin
+RPout,SFE_Leggett_bc_data_008.csv,Time,RPout

@@ -1,0 +1,3 @@
+202312051610   0     0     0Jose C:\Users\Jose\Desktop\SFE_Miranda\HAND_Prep\HAND_1m\feat_tw1-1 = CON(C:\Users\Jose\Desktop\SFE_Miranda\HAND_Prep\HAND_1m\Feat_TW1, ( -1), ( 0))
+202312051616   0     0     0Jose C:\Users\Jose\Desktop\SFE_Miranda\HAND_Prep\HAND_1m\feat_tw1-1 = CON(C:\Users\Jose\Desktop\SFE_Miranda\HAND_Prep\HAND_1m\feat_TW1, ( -1), ( 0))
+202312051617   0     0     0Jose C:\Users\Jose\Desktop\SFE_Miranda\HAND_Prep\HAND_1m\Cellst_1 = MIN(C:\Users\Jose\Desktop\SFE_Miranda\HAND_Prep\HAND_1m\dem.tif, C:\Users\Jose\Desktop\SFE_Miranda\HAND_Prep\HAND_1m\feat_tw1-1)

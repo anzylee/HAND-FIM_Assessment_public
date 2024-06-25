@@ -1,0 +1,13 @@
+Origin == 433613,4448711 
+Orientation == 433613,4450498
+Cell Size == 1  ! cell size in the units as specified in the .tcf file
+Grid Size (X,Y) == 1477,1777 ! grid dimensions in the units as specified in the .tcf file
+
+Set Zpts == 1050 ! Any elevation notbaly higher than your project max Z
+Read GRID Zpts ==..\model\grid\SFE_Miranda.asc
+
+Set Code == 0
+Read GIS Code == ..\model\gis\2d_code_SFE_Miranda_R.shp
+
+Set Mat == 1  ! Set every cell to a material ID of 1
+! Read GIS Mat == ..\model\gis\2d_mat_SFE_Miranda_R.shp  		!Set materials using polygon 
