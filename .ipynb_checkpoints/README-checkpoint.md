@@ -29,10 +29,10 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This toolset is composed of three main python scripts, which should be run sequentially in the following order.
+This toolset is composed of three main python scripts, which the first script should be run before the second script.
 
 #### 1. SFE_Mainstem_HAND_params_calc.py
-This python script calculates the HG parameters including W, P, A, and R. For this example, we use 1-m DEM with bathymetry and 10-m DEM without bathymetry.
+This python script calculates the HG parameters including W, P, A, and R using the HAND method. For this example, we calculate them for 1-m DEM with bathymetry and 10-m DEM without bathymetry.
 - Input
     - Topography of interest in raster format
         - 1-m DEM with bathymetry
@@ -43,10 +43,26 @@ This python script calculates the HG parameters including W, P, A, and R. For th
     - A table of HG parameters for different stages for each topography
 
 #### 2. SFE_Mainstem_HAND_params_dist.py
-- This python script extracts 
+This python script calculates the distribution of HG parameters from the benchmark dataset and plot them with the ones calculated by the HAND method.
+- Input
+    - Topography used to run the 2D hydrodynamic model in raster format
+        - 1-m DEM with bathymetry
+    - Cross-section lines (.shp)
+    - Thalweg points passing through each cross-section lines (.shp)
+    - Water surface elevation (WSE) in raster format
+- Output
+    - A plot of the distribution of HG parameters with the ones calculated by the HAND method
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+#### 3. SFE_Mainstem_HAND_rating_curves.py
+This python script generates the HAND-based rating curve (e.g., synthetic rating curve) and the family of rating curves obtained from the benchmark dataset.
+- Input
+    - Topography used to run the 2D hydrodynamic model in raster format
+        - 1-m DEM with bathymetry
+    - Cross-section lines (.shp)
+    - Thalweg points passing through each cross-section lines (.shp)
+    - Water surface elevation (WSE) in raster format
+- Output
+    - A plot of the HAND-based rating curve and the family of rating curves obtained from the benchmark dataset
 
 <!-- ROADMAP 
 
@@ -92,7 +108,7 @@ Anzy Lee anzy.lee@usu.edu
 Project Link: [https://github.com/anzylee/HAND-FIM_Assessment_public](https://github.com/anzylee/HAND-FIM_Assessment_public)
 
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- ACKNOWLEDGMENTS 
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
@@ -105,7 +121,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
