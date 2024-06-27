@@ -37,7 +37,7 @@ This python script calculates the HG parameters including W, P, A, and R using t
     - Topography of interest in raster format
         - 1-m DEM with bathymetry
         - 10-m DEM without bathymetry
-    - Thalweg line or streamline (.shp)
+    - HAND raster for each topography
     - Boundary polygon (.shp)
 - Output
     - A table of HG parameters for different stages for each topography
@@ -45,22 +45,29 @@ This python script calculates the HG parameters including W, P, A, and R using t
 #### 2. SFE_Mainstem_HAND_params_dist.py
 This python script calculates the distribution of HG parameters from the benchmark dataset and plot them with the ones calculated by the HAND method.
 - Input
+    - Outputs from the first script (1.)
     - Topography used to run the 2D hydrodynamic model in raster format
         - 1-m DEM with bathymetry
     - Cross-section lines (.shp)
-    - Thalweg points passing through each cross-section lines (.shp)
-    - Water surface elevation (WSE) in raster format
+    - Thalweg points for each cross-section lines (.shp)
+    - For each flow condition,
+        - Water surface elevation (WSE) in raster format
+        - Downstream WSE and flow discharge 
 - Output
     - A plot of the distribution of HG parameters with the ones calculated by the HAND method
 
 #### 3. SFE_Mainstem_HAND_rating_curves.py
-This python script generates the HAND-based rating curve (e.g., synthetic rating curve) and the family of rating curves obtained from the benchmark dataset.
+This python script generates the HAND-based rating curve (e.g., synthetic rating curve) a the family of rating curves obtained from the benchmark dataset.
 - Input
+    - Outputs from the first script (1.) 
     - Topography used to run the 2D hydrodynamic model in raster format
         - 1-m DEM with bathymetry
+    - Manning's n and channel slope 
     - Cross-section lines (.shp)
-    - Thalweg points passing through each cross-section lines (.shp)
-    - Water surface elevation (WSE) in raster format
+    - Thalweg points for each cross-section lines (.shp)
+    - For each flow condition,
+        - Water surface elevation (WSE) in raster format
+        - Downstream WSE and flow discharge 
 - Output
     - A plot of the HAND-based rating curve and the family of rating curves obtained from the benchmark dataset
 
@@ -78,7 +85,7 @@ This python script generates the HAND-based rating curve (e.g., synthetic rating
 -->
 
 
-<!-- CONTRIBUTING -->
+<!-- CONTRIBUTING 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -91,7 +98,7 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
+-->
 
 <!-- LICENSE -->
 ## License
