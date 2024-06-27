@@ -56,6 +56,11 @@ This python script calculates the distribution of HG parameters from the benchma
 - Output
     - A plot of the distribution of HG parameters with the ones calculated by the HAND method
 
+<p align="center" width="100%">
+<img width="50%" src="/codes/SFE_Leggett_hand_param_calc/HAND_BM/6_XS_Area_log.png" alt="output2">
+</p>
+
+
 #### 3. SFE_Mainstem_HAND_rating_curves.py
 This python script generates the HAND-based rating curve (e.g., synthetic rating curve) a the family of rating curves obtained from the benchmark dataset.
 - Input
@@ -72,8 +77,10 @@ This python script generates the HAND-based rating curve (e.g., synthetic rating
     - A plot of the HAND-based rating curve and the family of rating curves obtained from the benchmark dataset
 
 <!-- ![output3](/codes/SFE_Leggett_hand_param_calc/HAND_BM/SRCs_extended.png) -->
-<img style="display: block; margin: auto; max-width: 80%" src="/codes/SFE_Leggett_hand_param_calc/HAND_BM/SRCs_extended.png" alt="output3">
 
+<p align="center" width="100%">
+<img width="50%" src="/codes/SFE_Leggett_hand_param_calc/HAND_BM/SRCs_extended.png" alt="output3">
+</p>
 
 <!-- ROADMAP 
 
