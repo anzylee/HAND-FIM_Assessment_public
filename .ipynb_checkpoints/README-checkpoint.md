@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This toolset is composed of three main python scripts, which the first script should be run before the second script.
+This toolset is composed of three main python scripts and the first script should be run before the second and thrid scripts.
 
 #### 1. SFE_Mainstem_HAND_params_calc.py
 This python script calculates the HG parameters including W, P, A, and R using the HAND method. For this example, we calculate them for 1-m DEM with bathymetry and 10-m DEM without bathymetry.
