@@ -72,7 +72,7 @@ This python script generates the HAND-based rating curve (e.g., synthetic rating
     - A plot of the HAND-based rating curve and the family of rating curves obtained from the benchmark dataset
 
 <!-- ![output3](/codes/SFE_Leggett_hand_param_calc/HAND_BM/SRCs_extended.png) -->
-<img src="/codes/SFE_Leggett_hand_param_calc/HAND_BM/SRCs_extended.png" alt="output3" width="200"/>
+<img src="/codes/SFE_Leggett_hand_param_calc/HAND_BM/SRCs_extended.png" alt="output3" style="float: center; max-width: 80%;">
 
 
 <!-- ROADMAP 
