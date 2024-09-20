@@ -7,6 +7,8 @@
 
 ### New version is avaialble at [https://github.com/USU-CIROH/HAND-FIM_Assessment_public](https://github.com/USU-CIROH/HAND-FIM_Assessment_public)
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Motivation
 
 We developed HAND-FIM assessment toolset to (1) calculate hydraulic geometry (HG) parameters such as width (W), perimeter (P), flow area (A), and hydraulic radius (R) from topographies of interest using the Height Above Nearest Drainage (HAND) method, (2) extract HG parameters from 2D hydrodynamic model with 1-m high-resolution topobathy (Benchmark), (3) compare the HAND HG parameters with their actual distribution obtained from the benchmark dataset, and (4) compare the HAND-based rating curve (e.g., synthetic rating curve) with the family of rating curves obtained from the benchmark dataset.
